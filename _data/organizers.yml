@@ -1,0 +1,38 @@
+- name: Chen Tang
+  webpage: https://chentangmark.github.io 
+  affil: UT Austin
+  affil_link: https://robotics.utexas.edu/
+  img: Chen_Tang.png
+
+- name: Yifeng Zhu
+  webpage: https://cs.utexas.edu/~yifengz
+  affil: UT Austin
+  affil_link: https://robotics.utexas.edu/
+  img: Yifeng_Zhu.jpeg
+
+- name: Yue Meng
+  webpage: https://mengyuest.github.io/
+  affil: MIT
+  img: Yue_Meng.jpg
+
+- name: Siddharth Karamcheti
+  webpage: https://www.siddkaramcheti.com/
+  affil: Stanford University
+  img: Siddharth_Karamcheti.jpg
+
+- name: Andreea Bobu
+  webpage: https://andreea7b.github.io/
+  affil: MIT
+  img: Andreea_Bobu.jpg
+
+- name: Yuke Zhu
+  webpage: https://www.cs.utexas.edu/~yukez/
+  affil: UT Austin
+  img: Yuke_Zhu.jpg
+  is_advisor: true
+
+- name: Peter Stone
+  webpage: https://www.cs.utexas.edu/~pstone/
+  affil: UT Austin
+  img: Peter_Stone.jpg
+  is_advisor: true

@@ -1,0 +1,72 @@
+---
+layout: default
+---
+
+<article class="post">
+
+  <header class="post-header">
+    <h1 class="post-title">{{ page.title | escape }}</h1>
+  </header>
+
+  <div class = "post-content">
+	<!-- <div class = "post-content">
+        <div id="timezone-buttons">
+        <input type="radio" id="tokyo-time-btn" name="timezone" class="timezone-radio" onclick="selectTokyoTime()" checked>
+        <label for="tokyo-time-btn" class="timezone-label">Tokyo Time</label>
+        <input type="radio" id="local-time-btn" onclick="selectLocalTime()" name="timezone" class="timezone-radio">
+        <label for="local-time-btn" class="timezone-label">Local Time</label>
+        <div id="slider"></div>
+    </div> -->
+	<h3>Spotlight</h3>
+    <table>
+        {% for scheduleitem in site.data.spotlight %}
+        <tr class="schedule-row" data-event-time="{{ scheduleitem.time }}">
+            <!-- <td class="time-cell" data-tokyo-time="{{ scheduleitem.time }}">
+                <p align="center">
+                    <div align="center" class="time-display"></div>
+                    <div align="center" class="timezone-info"></div>
+                </p>
+            </td> -->
+            <td align="left">
+                <div class="col-xs-12">
+                	{{ scheduleitem.title }}
+                </div>
+
+                <br>
+                {% if scheduleitem.description %}
+                <div class="col-xs-12" align="left">
+                    {{ scheduleitem.description }}
+                </div>
+                {% endif %}
+            </td>
+			<td>
+				<div class="toggle-title" onclick="toggleContent(this)">Paper Link</div>
+				<!-- The Modal -->
+				<div id="myModal" class="modal-overlay">
+					<div class="modal-content">
+					<span class="close" onclick="closeModal()">&times;</span>
+					{{ scheduleitem.link }}
+				</div>
+				</div>
+			</td>
+            <!-- <td>
+                <div class="people-name text-center">
+                    {% if scheduleitem.speaker_webpage %}
+                        <a href="{{ scheduleitem.speaker_webpage }}" target="_blank">{{ scheduleitem.speaker }}</a>
+                    {% else %}
+                        {{ scheduleitem.speaker }}
+                    {% endif %}
+                    <br>
+                    {% if scheduleitem.affiliation %}
+                        {{ scheduleitem.affiliation }}
+                    {% endif %}
+                </div>
+            </td> -->
+        </tr>
+        {% endfor %}
+    </table>
+	<br>
+  </div>
+
+
+</article>
