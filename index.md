@@ -51,7 +51,7 @@ We intend to guide our conversations with the following questions:
         <div class="col-lg-3 col-md-4 mb-3">
             <div class="card h-100">
                 <div class="card-img-container mx-auto">
-                    <img src="{{ '/assets/img/speakers/' | append: speaker.img }}" class="card-img-top rounded-img mx-auto" alt="{{ speaker.name }}">
+                    <img src="{{ site.baseurl | append: '/assets/img/speakers/' | append: speaker.img }}" class="card-img-top rounded-img mx-auto" alt="{{ speaker.name }}">
                 </div>
                 <div class="card-body">
                     <h5 class="card-title  text-center"><a href="{{ speaker.webpage }}"> {{speaker.name}} </a></h5>
@@ -198,7 +198,7 @@ We intend to guide our conversations with the following questions:
                 <div class="col-lg-2 col-md-4 col-sm-6 mb-4">
                     <div class="card h-100">
                         <div class="card-img-container mx-auto">
-                            <img src="{{ '/assets/img/organizers/' | append: organizer.img }}" class="card-img-top rounded-img mx-auto" alt="{{ organizer.name }}">
+                            <img src="{{ site.baseurl | append: '/assets/img/organizers/' | append: organizer.img }}" class="card-img-top rounded-img mx-auto" alt="{{ organizer.name }}">
                         </div>
                         <div class="card-body">
                             <h5 class="card-title text-center">
@@ -224,7 +224,7 @@ We intend to guide our conversations with the following questions:
                 <div class="col-lg-2 col-md-4 col-sm-6 mb-4">
                     <div class="card h-100">
                         <div class="card-img-container mx-auto">
-                            <img src="{{ '/assets/img/organizers/' | append: organizer.img }}" class="card-img-top rounded-img mx-auto" alt="{{ organizer.name }}">
+                            <img src="{{ site.baseurl | append: '/assets/img/organizers/' | append: organizer.img }}" class="card-img-top rounded-img mx-auto" alt="{{ organizer.name }}">
                         </div>
                         <div class="card-body">
                             <h5 class="card-title text-center">

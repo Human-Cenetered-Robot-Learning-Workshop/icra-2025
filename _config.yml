@@ -22,8 +22,8 @@ title: HCRL @ ICRA 2025
 email: your-email@example.com
 description: >- # this means to ignore newlines until "baseurl:"
    In recent years, the field of general-purpose robot manipulation has seen exciting progress, showcasing a wide range of success in sensorimotor skill learning. However, unlike research in assembly and logistics manipulations where there are clearly defined, practically/industrially driven tasks to solve, general-purpose robot manipulation research—geared towards everyday situations—lacks community-wise agreement on which robotics tasks are most important to evaluate. To propel this field, our workshop aims to sketch the future roadmap of sensorimotor skill learning for robot manipulation.
-baseurl: "" # the subpath of your site, e.g. /blog
-url: "https://human-cenetered-robot-learning-workshop.github.io/icra-2025/" # the base hostname & protocol for your site, e.g. http://example.com
+baseurl: "/icra-2025" # the subpath of your site, e.g. /blog
+url: "https://human-cenetered-robot-learning-workshop.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: rethinkmlpapers
 github_username:  rethinkmlpapers
 
