@@ -45,11 +45,3 @@
   img: ruohan_zhang.png
   bio: >
     Ruohan is a Postdoctoral Researcher at Stanford University. Their research focuses on human-robot interfaces, working towards creating more human-centered robotics systems.
-
-- name: Stefanie Tellex
-  webpage: https://cs.brown.edu/people/stellex/
-  affil: Brown University and Boston Dynamics AI Institute
-  affil_link: https://www.brown.edu/
-  img: stefanie_tellex.jpg
-  bio: >
-    Stefanie is an Associate Professor at Brown University and affiliated with Boston Dynamics AI Institute. Her research focuses on Natural Language and Foundation Models for Robotics.
