@@ -10,7 +10,7 @@ layout: home
 <h1 class="page-heading">Human-Centered Robot Learning in the Era of Big Data and Large Models</h1>
 
 <p class="workshop-location" align="center">
-    Location and Date: TBD
+    May 19th, 2025 | Atlanta, Georgia, USA | ICRA 2025
 </p>
 <!-- <p align="center">
     <a href="">[Live Stream Link]</a>
