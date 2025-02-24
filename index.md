@@ -25,12 +25,12 @@ layout: home
 <br>
 <br>
 
-Recent advances in training large-scale models on massive internet-scale data show promise for producing foundation models that enable robots to perform sophisticated tasks in human-centered environments (e.g., transportation, households, healthcare, and warehouses). These models enable new paradigms for human-robot interaction, allowing robots to follow complex human instructions, collaborate with humans, and understand and comply with social norms. 
+Recent advances in training large-scale models on massive datasets have led to the development of foundational models, such as large language models (LLMs) and large multimodal models (LMMs), capable of interacting with humans to perform sophisticated tasks. These models also enable new paradigms for human-robot interaction, facilitating the deployment of robots in human-centered environments to operate alongside humans (e.g., transportation, household tasks, healthcare, and warehouses). For example, robots powered by LLMs and LMMs show promise in following complex human instructions, collaborating with humans, and understanding and adhering to social norms.
 
+However, compared to deploying AI models that interact with humans virtually (e.g., chatbots), deploying those embodied AI agents to interact with humans in the physical world imposes various unique challenges, for example: 1) The models need to be grounded in the physical world, especially in human representations and understanding of the physical world, to facilitate efficient and trustworthy human interaction; 2) The risk of physical harm to humans imposes significantly higher requirements on AI safety and alignment methods; 3) Robot data, especially human-robot interaction data, is much less accessible, compared to the abundance of internet data used for training virtual AI models. 
 
-However, compared to deploying AI models that interact with humans virtually, deploying those embodied AI agents to interact with humans in the physical world imposes additional challenges, for example: 1) These models must be grounded in human representations and understandings of the physical world for effective and trustworthy interactions; 2) The risk of physical harm to humans imposes significantly higher requirements on AI safety; 3) acquiring human-robot interaction data is significantly harder than accessing internet data used for training large language models (LLMs). 
-
-This workshop aims to bring together interdisciplinary experts in related fields, such as robot learning, human-robot interaction, natural language processes, cognitive science, and trustworthy AI, to gather and discuss these grand challenges. We envision this exchange of ideas within and across disciplines can build new bridges to developing and deploying large-scale models for interactive embodied AI systems.
+This workshop aims to bring together interdisciplinary experts from related fields such as robot learning, human-robot interaction, natural language processing, cognitive science, and trustworthy AI to gather and discuss these challenges. We envision that this cross-disciplinary exchange will build new pathways for developing and deploying large-scale models in human-centered embodied AI systems.
+We intend to guide our conversations with the following questions:
 
 We intend to guide our conversations with the following questions:
 <ul>
@@ -82,7 +82,7 @@ We intend to guide our conversations with the following questions:
         <li>Efficient fine-tuning of pre-trained large models for embodied AI</li>
         <li>Applications in human-robot interaction and collaboration</li>
     </ul>
-    Accepted papers will be presented as spotlight talks and the posters, and will be made available on the workshop website with the authors’ consent. All papers will be presented on-site during the workshop.
+    Accepted papers will be presented as spotlight talks and/or posters. The accepted papers will be made available on the workshop website with the authors’ consent. All papers will be presented on-site during the workshop.
     <br>
     <br>
     <h4 class="mb-3">Submission Guidelines</h4>
