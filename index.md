@@ -31,8 +31,6 @@ However, compared to deploying AI models that interact with humans virtually (e.
 
 This workshop aims to bring together interdisciplinary experts from related fields such as robot learning, human-robot interaction, natural language processing, cognitive science, and trustworthy AI to gather and discuss these challenges. We envision that this cross-disciplinary exchange will build new pathways for developing and deploying large-scale models in human-centered embodied AI systems.
 We intend to guide our conversations with the following questions:
-
-We intend to guide our conversations with the following questions:
 <ul>
     <li>What are the ideal data types for learning embodied interactions, and how can we acquire them efficiently and safely?</li>
     <li>How can we train large models for human-centered robots to ensure robustness across diverse human interaction behaviors?</li>
