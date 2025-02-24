@@ -1,121 +1,106 @@
+- speaker: Organizers
+  title: Opening Remarks
+  time: 08:20 - 08:30
+  img: jane.jpg
+  type: keynote
+  description: "<p>Opening Remarks by Workshop Organizers</p>"
+
+- speaker: Benjamin Kuipers
+  title: Keynote Talk 1
+  speaker_webpage: "https://web.eecs.umich.edu/~kuipers/"
+  affliation: University of Michigan
+  time: 08:30 - 09:05
+  img: benjamin_kuipers.jpg
+  type: keynote
+  description: "<p>(Tentative) Models, Trust, and Unknown Unknowns</p>"
+
+- speaker: Andrea Bajcsy
+  title: Keynote Talk 2
+  speaker_webpage: "https://www.ri.cmu.edu/ri-faculty/andrea-bajcsy/"
+  affliation: Carnegie Mellon University
+  time: 09:05 - 09:40
+  img: andrea_bajcsy.jpg
+  type: keynote
+  description: "<p>(Tentative) Towards Human–AI Safety: <br> A Descendant of Generative AI and Control Systems Safety</p>"
+
+- speaker: Authors of contributions
+  title: Spotlight Talks of Contributed Papers
+  time: 09:40 - 10:10
+  img: jane.jpg
+  type: spotlight
+  description: "<a href='/contributions'>Details</a>"
+
 - speaker: null
-  title: TBD
-  time: TBD
+  title: Coffee Break and Poster Session
+  time: 10:10 - 11:10
   img: jane.jpg
   type: break
 
-# - speaker: Organizers
-#   title: Opening Remarks
-#   time: 08:20 - 08:30
-#   img: jane.jpg
-#   type: keynote
-#   description: "<p>Opening Remarks by Workshop Organizers</p>"
+- speaker: Jens Kober
+  title: Keynote Talk 3
+  speaker_webpage: "https://www.tudelft.nl/staff/j.kober/"
+  affliation: TU Delft
+  time: 11:10 - 11:45
+  img: jens_kober.jpg
+  type: keynote
+  description: "<p>(Tentative) Learning from Intuitive Interactions with Human Teachers</p>"
 
-# - speaker: Benjamin Kuipers
-#   title: Keynote Talk 1
-#   speaker_webpage: "https://web.eecs.umich.edu/~kuipers/"
-#   affliation: University of Michigan
-#   time: 08:30 - 09:00
-#   img: benjamin_kuipers.jpg
-#   type: keynote
-#   description: "<p>Models, Trust, and Unknown Unknowns</p>"
+- speaker: Harold Soh
+  title: Keynote Talk 4
+  speaker_webpage: "https://haroldsoh.com/"
+  affliation: National University of Singapore
+  time: 11:45 - 12:20
+  img: harold_soh.jpg
+  type: keynote
+  description: "<p>(Tentative) Rethinking Social, Task, and Motion Planning with Foundation Models</p>"
 
-# - speaker: Andrea Bajcsy
-#   title: Keynote Talk 2
-#   speaker_webpage: "https://www.ri.cmu.edu/ri-faculty/andrea-bajcsy/"
-#   affliation: Carnegie Mellon University
-#   time: 09:00 - 09:30
-#   img: andrea_bajcsy.jpg
-#   type: keynote
-#   description: "<p>Towards Human–AI Safety: <br> A Descendant of Generative AI and Control Systems Safety</p>"
+- speaker: null
+  title: Lunch Break
+  time: 12:20 - 13:20
+  img: jane.jpg
+  type: break
 
-# - speaker: Authors of contributions
-#   title: Spotlight Talks of Contributed Papers
-#   time: 09:30 - 10:00
-#   img: jane.jpg
-#   type: spotlight
-#   description: "<a href='/contributions'>Details</a>"
+- speaker: Matthew Gombolay
+  title: Keynote Talk 5
+  speaker_webpage: "https://core-robotics.gatech.edu/people/matthew-gombolay/"
+  affliation: Georgia Institute of Technology
+  time: 13:20 - 13:55
+  img: matthew_gombolay.jpg
+  type: keynote
+  description: "<p>(Tentative) Commander's Intent: Human-Robot Value Alignment <br> and Skill Learning with Large Models from the Lens of Naval Planning</p>"
 
-# - speaker: null
-#   title: Coffee Break and Poster Session
-#   time: 10:00 - 11:00
-#   img: jane.jpg
-#   type: break
+- speaker: Ruohan Zhang
+  title: Keynote Talk 6
+  speaker_webpage: "https://web.stanford.edu/~zharu/"
+  affliation: Stanford University
+  time: 13:55 - 14:30
+  img: ruohan_zhang.jpg
+  type: keynote
+  description: "<p>(Tentative) Towards Human-Centered Robotics</p>"
 
-# - speaker: Jens Kober
-#   title: Keynote Talk 3
-#   speaker_webpage: "https://www.tudelft.nl/staff/j.kober/"
-#   affliation: TU Delft
-#   time: 11:00 - 11:30
-#   img: jens_kober.jpg
-#   type: keynote
-#   description: "<p>Learning from Intuitive Interactions with Human Teachers</p>"
+- speaker: Authors of contributions
+  title: Spotlight Talks of Contributed Papers
+  time: 14:30 - 15:00
+  img: jane.jpg
+  type: spotlight
+  description: "<a href='/contributions'>Details</a>"
 
-# - speaker: Harold Soh
-#   title: Keynote Talk 4
-#   speaker_webpage: "https://haroldsoh.com/"
-#   affliation: National University of Singapore
-#   time: 11:30 - 12:00
-#   img: harold_soh.jpg
-#   type: keynote
-#   description: "<p>Rethinking Social, Task, and Motion Planning with Foundation Models</p>"
+- speaker: null
+  title: Coffee Break and Poster Session
+  time: 15:00 - 16:00
+  img: jane.jpg
+  type: break
 
-# - speaker: Matthew Gombolay
-#   title: Keynote Talk 5
-#   speaker_webpage: "https://core-robotics.gatech.edu/people/matthew-gombolay/"
-#   affliation: Georgia Institute of Technology
-#   time: 12:00 - 12:30
-#   img: matthew_gombolay.jpg
-#   type: keynote
-#   description: "<p>Commander's Intent: Human-Robot Value Alignment <br> and Skill Learning with Large Models from the Lens of Naval Planning</p>"
+- speaker: All Speakers
+  title: Panel Discussion
+  time: 16:00 - 17:00
+  img: jane.jpg
+  type: panel
+  description: "<p>Panel Discussion with Keynote Speakers</p>"
 
-# - speaker: null
-#   title: Lunch Break
-#   time: 12:30 - 13:30
-#   img: jane.jpg
-#   type: break
-
-# - speaker: Stefanie Tellex
-#   title: Keynote Talk 6
-#   speaker_webpage: "https://cs.brown.edu/people/stellex/"
-#   affliation: Brown University and Boston Dynamics AI Institute
-#   time: 13:30 - 14:00
-#   img: stefanie_tellex.jpg
-#   type: keynote
-#   description: "<p>TBD</p>"
-
-# - speaker: Ruohan Zhang
-#   title: Keynote Talk 7
-#   speaker_webpage: "https://web.stanford.edu/~zharu/"
-#   affliation: Stanford University
-#   time: 14:00 - 14:30
-#   img: ruohan_zhang.jpg
-#   type: keynote
-#   description: "<p>Towards Human-Centered Robotics</p>"
-
-# - speaker: Authors of contributions
-#   title: Spotlight Talks of Contributed Papers
-#   time: 14:30 - 15:00
-#   img: jane.jpg
-#   type: spotlight
-#   description: "<a href='/contributions'>Details</a>"
-
-# - speaker: null
-#   title: Coffee Break and Poster Session
-#   time: 15:00 - 16:00
-#   img: jane.jpg
-#   type: break
-
-# - speaker: All Speakers
-#   title: Panel Discussion
-#   time: 16:00 - 17:00
-#   img: jane.jpg
-#   type: panel
-#   description: "<p>Panel Discussion with Keynote Speakers</p>"
-
-# - speaker: Organizers
-#   title: Closing Remarks
-#   time: 17:00 - 17:10
-#   img: jane.jpg
-#   type: keynote
-#   description: "<p>Closing Remarks by Workshop Organizers</p>"
+- speaker: Organizers
+  title: Closing Remarks
+  time: 17:00 - 17:10
+  img: jane.jpg
+  type: keynote
+  description: "<p>Closing Remarks by Workshop Organizers</p>"
