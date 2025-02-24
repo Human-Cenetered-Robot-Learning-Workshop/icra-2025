@@ -28,7 +28,7 @@
   time: 09:40 - 10:10
   img: jane.jpg
   type: spotlight
-  description: "<a href='/contributions'>Details</a>"
+#  description: "<a href='/contributions'>Details</a>"
 
 - speaker: null
   title: Coffee Break and Poster Session
@@ -83,7 +83,7 @@
   time: 14:30 - 15:00
   img: jane.jpg
   type: spotlight
-  description: "<a href='/contributions'>Details</a>"
+#  description: "<a href='/contributions'>Details</a>"
 
 - speaker: null
   title: Coffee Break and Poster Session
