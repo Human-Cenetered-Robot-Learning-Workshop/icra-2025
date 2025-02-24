@@ -69,7 +69,7 @@ We intend to guide our conversations with the following questions:
     <h2 class="mb-3">Call For Papers</h2>
     <p>Submission deadline: <b>March 31st, 11:59PM UTC-0</b></p>
     <div class="submission-box">
-    <a href="">Submission Link Available Later</a>
+    <a href="https://openreview.net/group?id=IEEE.org/ICRA/2025/Workshop/Human-Centered_Robot_Learning">Openreview Submission Link</a>
     </div>
     <br>
      We invite submissions that address the fundamental challenges in enabling large-scale human-centered robot learning or demonstrate novel human-centered embodied AI systems enabled by large-scale data and models. The related topics include but are not limited to:
