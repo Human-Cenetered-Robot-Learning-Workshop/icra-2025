@@ -87,7 +87,7 @@ We intend to guide our conversations with the following questions:
     <br>
     <h4 class="mb-3">Submission Guidelines</h4>
     <p>The review process will be single-blind. Submissions will be evaluated based on originality, technical quality, and relevance to
-    the workshop themes. The review process will not be made public; only the accepted papers will be available on the workshop 
+    the workshop themes. The review process will not be public; only the accepted papers will be available on the workshop 
     website, given the authors’ consent.</p>
     <p>There is <b>no</b> strict page limit; however, we encourage submissions to be within 4-8 pages (excluding references) to 
     facilitate thorough review. Papers should be submitted in PDF, adhering to the ICRA template and our submission guidelines. Also, we encourage authors to submit videos, code, or data in their supplementary material (zip file) or through external services like Github repos.</p>
