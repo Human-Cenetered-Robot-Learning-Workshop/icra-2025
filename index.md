@@ -67,7 +67,9 @@ We intend to guide our conversations with the following questions:
 
 <section id="papers">
     <h2 class="mb-3">Call For Papers</h2>
-    <p>Submission deadline: <b>March 31st, 11:59PM UTC-0</b></p>
+    <p>Submission deadline: <b>April 6th, 11:59pm AOE, 2025</b></p>
+    <p>Review and decision: <b>April 20th, 2025</b></p>
+    <p>Camera-ready deadline: <b>May 11th, 2025</b></p>
     <div class="submission-box">
     <a href="https://openreview.net/group?id=IEEE.org/ICRA/2025/Workshop/Human-Centered_Robot_Learning">Openreview Submission Link</a>
     </div>
@@ -84,18 +86,12 @@ We intend to guide our conversations with the following questions:
     <br>
     <br>
     <h4 class="mb-3">Submission Guidelines</h4>
-    TBD.
-    <!-- There is <b>no</b> strict page limit; however, we encourage submissions to be within 4-8 pages (excluding references) to facilitate thorough review.
-    <br>
-    Papers should be submitted in PDF format, adhering to the ICRA template and submission guidelines on our workshop website.
-    <br>
-    Submissions will be evaluated based on their originality, technical quality, relevance to the workshop themes, and potential to spark discussions on the future of robot manipulation.
-    <br>
-    <b>Additionally</b>, to encourage discussion on the workshop topic, we ask authors to provide 1~2 paragraphs of statements on how their work relates to the workshop theme (See the submission page). These information will help us organize the workshop discussion and better feature the accepted works on the website.
-    Accepted papers will be presented either as posters or orals, and will be archived on the workshop website with the authors’ consent. All papers will be presented on-site during the workshop. -->
-
-    <br>
-    <br>
+    <p>The review process will be single-blind. Submissions will be evaluated based on originality, technical quality, and relevance to
+    the workshop themes. The review process will not be made public; only the accepted papers will be available on the workshop 
+    website, given the authors’ consent.</p>
+    <p>There is <b>no</b> strict page limit; however, we encourage submissions to be within 4-8 pages (excluding references) to 
+    facilitate thorough review. Papers should be submitted in PDF, adhering to the ICRA template and our submission guidelines. Also, we encourage authors to submit videos, code, or data in their supplementary material (zip file) or through external services like Github repos.</p>
+    <p><b>Additionally</b>, to encourage discussion on the workshop topic, we ask authors to provide 1~2 paragraphs of statements on how their work relates to the workshop theme. This information will help us organize the workshop discussion and better feature the accepted works on the website.</p>
     
 </section>
 
