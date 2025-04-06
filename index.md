@@ -67,7 +67,7 @@ We intend to guide our conversations with the following questions:
 
 <section id="papers">
     <h2 class="mb-3">Call For Papers</h2>
-    <p>Submission deadline: <b>April 7th, 11:59pm AOE, 2025</b></p>
+    <p>Submission deadline: <s>April 6th, 11:59pm AOE, 2025</s> <b>April 7th, 11:59pm AOE, 2025</b></p>
     <p>Review and decision: <b>April 20th, 2025</b></p>
     <p>Camera-ready deadline: <b>May 11th, 2025</b></p>
     <div class="submission-box">
