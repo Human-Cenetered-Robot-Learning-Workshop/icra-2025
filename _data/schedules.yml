@@ -12,16 +12,16 @@
   time: 08:30 - 09:05
   img: benjamin_kuipers.jpg
   type: keynote
-  description: "<p>(Tentative) Models, Trust, and Unknown Unknowns</p>"
+  description: "<p>Models, Trust, and Unknown Unknowns</p>"
 
-- speaker: Andrea Bajcsy
+- speaker: Ruohan Zhang
   title: Keynote Talk 2
-  speaker_webpage: "https://www.ri.cmu.edu/ri-faculty/andrea-bajcsy/"
-  affliation: Carnegie Mellon University
+  speaker_webpage: "https://web.stanford.edu/~zharu/"
+  affliation: Stanford University
   time: 09:05 - 09:40
-  img: andrea_bajcsy.jpg
+  img: ruohan_zhang.jpg
   type: keynote
-  description: "<p>(Tentative) Towards Human–AI Safety: <br> A Descendant of Generative AI and Control Systems Safety</p>"
+  description: "<p>Data-Driven Approaches for Policy Learning in Household Robots</p>"
 
 - speaker: Authors of contributions
   title: Spotlight Talks of Contributed Papers
@@ -43,7 +43,7 @@
   time: 11:10 - 11:45
   img: jens_kober.jpg
   type: keynote
-  description: "<p>(Tentative) Learning from Intuitive Interactions with Human Teachers</p>"
+  description: "<p>Learning from Intuitive Interactions with Human Teachers</p>"
 
 - speaker: Harold Soh
   title: Keynote Talk 4
@@ -60,23 +60,23 @@
   img: jane.jpg
   type: break
 
-- speaker: Matthew Gombolay
+- speaker: Andrea Bajcsy
   title: Keynote Talk 5
+  speaker_webpage: "https://www.ri.cmu.edu/ri-faculty/andrea-bajcsy/"
+  affliation: Carnegie Mellon University
+  time: 13:20 - 13:55
+  img: andrea_bajcsy.jpg
+  type: keynote
+  description: "<p>What Can Robot Safety Learn from LLM Safety?</p>"
+
+- speaker: Matthew Gombolay
+  title: Keynote Talk 6
   speaker_webpage: "https://core-robotics.gatech.edu/people/matthew-gombolay/"
   affliation: Georgia Institute of Technology
-  time: 13:20 - 13:55
+  time: 13:55 - 14:30
   img: matthew_gombolay.jpg
   type: keynote
-  description: "<p>(Tentative) Commander's Intent: Human-Robot Value Alignment <br> and Skill Learning with Large Models from the Lens of Naval Planning</p>"
-
-- speaker: Ruohan Zhang
-  title: Keynote Talk 6
-  speaker_webpage: "https://web.stanford.edu/~zharu/"
-  affliation: Stanford University
-  time: 13:55 - 14:30
-  img: ruohan_zhang.jpg
-  type: keynote
-  description: "<p>(Tentative) Towards Human-Centered Robotics</p>"
+  description: "<p>Value Alignment and Safety in Human-Robot Interactive and Explainable Learning with Models Big and Small</p>"
 
 - speaker: Authors of contributions
   title: Spotlight Talks of Contributed Papers
