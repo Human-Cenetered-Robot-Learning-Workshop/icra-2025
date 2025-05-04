@@ -234,3 +234,21 @@ We intend to guide our conversations with the following questions:
         {% endfor %}
     </div>
 </section>
+
+<section id="sponsors">
+    <h2 class="mb-4">Sponsors</h2>
+    <div class="row">
+        {% for sponsor in site.data.sponsors %}
+        <div class="col-lg-3 col-md-4 mb-3">
+            <div class="card h-100">
+                <div class="card-img-container mx-auto">
+                    <img src="{{ site.baseurl | append: '/assets/img/sponsors/' | append: sponsor.img }}" class="card-img-top rounded-img mx-auto" alt="{{ sponsor.name }}">
+                </div>
+                <div class="card-body">
+                    <h5 class="card-title  text-center"><a href="{{ sponsor.webpage }}"> {{sponsor.name}} </a></h5>
+                </div>
+            </div>
+        </div>
+        {% endfor %}
+    </div>
+</section>
