@@ -25,14 +25,14 @@
 
 - speaker: Authors of contributions
   title: Spotlight Talks of Contributed Papers
-  time: 09:40 - 10:10
+  time: 09:40 - 10:45
   img: jane.jpg
   type: spotlight
 #  description: "<a href='/contributions'>Details</a>"
 
 - speaker: null
   title: Coffee Break and Poster Session
-  time: 10:10 - 11:10
+  time: 10:45 - 11:15
   img: jane.jpg
   type: break
 
@@ -40,7 +40,7 @@
   title: Keynote Talk 3
   speaker_webpage: "https://www.tudelft.nl/staff/j.kober/"
   affliation: TU Delft
-  time: 11:10 - 11:45
+  time: 11:15 - 11:50
   img: jens_kober.jpg
   type: keynote
   description: "<p>Learning from Intuitive Interactions with Human Teachers</p>"
@@ -49,14 +49,14 @@
   title: Keynote Talk 4
   speaker_webpage: "https://haroldsoh.com/"
   affliation: National University of Singapore
-  time: 11:45 - 12:20
+  time: 11:50 - 12:25
   img: harold_soh.jpg
   type: keynote
   description: "<p>(Tentative) Rethinking Social, Task, and Motion Planning with Foundation Models</p>"
 
 - speaker: null
   title: Lunch Break
-  time: 12:20 - 13:20
+  time: 12:25 - 13:20
   img: jane.jpg
   type: break
 
@@ -80,14 +80,14 @@
 
 - speaker: Authors of contributions
   title: Spotlight Talks of Contributed Papers
-  time: 14:30 - 15:00
+  time: 14:30 - 15:30
   img: jane.jpg
   type: spotlight
 #  description: "<a href='/contributions'>Details</a>"
 
 - speaker: null
   title: Coffee Break and Poster Session
-  time: 15:00 - 16:00
+  time: 15:30 - 16:00
   img: jane.jpg
   type: break
 
