@@ -107,15 +107,19 @@ span.award-other img {
 #sponsors .card-img-top.rounded-img {
   border-radius: 0!important;
   width: auto!important;
-  height: auto!important;
+  height: 80px!important;  /* Fixed height for all sponsor logos */
   max-width: 200px;
-  max-height: 100px;
+  max-height: 80px!important;  /* Match the height */
   object-fit: contain!important;
 }
 
 #sponsors .card-img-container {
   padding: 10px;
   background: none;
+  height: 100px;  /* Fixed container height */
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .card-img-container {
