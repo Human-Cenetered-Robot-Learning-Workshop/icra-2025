@@ -103,13 +103,19 @@ span.award-other img {
   margin-bottom: 15px;
 }
 
-/* Add new class for sponsor images without circular boundary */
-#sponsors .rounded-img {
+/* Add more specific rules for sponsor images */
+#sponsors .card-img-top.rounded-img {
   border-radius: 0!important;
   width: auto!important;
   height: auto!important;
   max-width: 200px;
   max-height: 100px;
+  object-fit: contain!important;
+}
+
+#sponsors .card-img-container {
+  padding: 10px;
+  background: none;
 }
 
 .card-img-container {
