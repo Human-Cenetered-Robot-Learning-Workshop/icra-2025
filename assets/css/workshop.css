@@ -103,6 +103,21 @@ span.award-other img {
   background-color: white !important;
 }
 
+/* Override any special styling for break type cells */
+.table.schedule tr[data-event-type="break"] td,
+.table.schedule tr[data-event-type="break"] {
+  background-color: white !important;
+}
+
+/* Override dynamic background color */
+.schedule-row {
+  background-color: white !important;
+}
+
+.schedule-row td {
+  background-color: white !important;
+}
+
 .rounded-img {
   border-radius: 50%!important;
   object-fit: cover;
