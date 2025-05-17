@@ -28,7 +28,62 @@
   time: 09:40 - 10:45
   img: jane.jpg
   type: spotlight
-#  description: "<a href='/contributions'>Details</a>"
+  description: |
+    <a href='/contributions' onclick="toggleTab(event)">Details</a>
+    <style>
+      #tab-content {
+        display: none;
+        margin-top: 10px;
+        padding: 15px;
+        border: 1px solid #ddd;
+        border-radius: 8px;
+        background-color: #fdfdfd;
+        box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+        font-family: Arial, sans-serif;
+        color: #333;
+        text-align: left;
+      }
+      #tab-content ul {
+        list-style-type: disc;
+        padding-left: 20px;
+        margin: 0;
+      }
+      #tab-content li {
+        margin-bottom: 8px;
+        line-height: 1.6;
+      }
+      #tab-content li span {
+        font-weight: bold;
+        color: #0073e6;
+      }
+    </style>
+    <div id="tab-content">
+      <ul>
+        <li><span>Azizul Zahid:</span> Toward Aligning Human and Robot Actions via Multi-Modal Demonstration Learning</li>
+        <li><span>Haonan Chen:</span> Tool-as-Interface: Learning Robot Tool Use from Human Play through Imitation Learning</li>
+        <li><span>Kushal Kedia:</span> One-Shot Imitation under Mismatched Execution</li>
+        <li><span>Shuijing Liu:</span> DRAGON: A Dialogue-Based Robot for Assistive Navigation with Visual Language Grounding</li>
+        <li><span>Xuefei Sun:</span> Spatial-LLaVA: Enhancing Large Language Models with Spatial Referring Expressions for Visual Understanding</li>
+        <li><span>Noriaki Hirose:</span> Learning to Drive Anywhere with Model-Based Reannotation</li>
+        <li><span>Allan Wang:</span> Memory-Maze: Scenario Driven Benchmark and Visual Language Navigation Model for Guiding Blind People</li>
+        <li><span>Peiqi Liu:</span> DynaMem: Online Dynamic Spatio-Semantic Memory for Open World Mobile Manipulation</li>
+        <li><span>Xingeu Zhou:</span> Curate, Connect, Inquire: A System for Findable Accessible Interoperable and Reusable (FAIR) Human-Robot Centered Datasets</li>
+        <li><span>David Paulius:</span> Lang2LTL-2: Grounding Spatiotemporal Navigation Commands Using Large Language and Vision-Language Models</li>
+        <li><span>Alessio Galatolo (Remote):</span> Look, Think, Understand: Multimodal Reasoning for Socially-Aware Robotics</li>
+        <li><span>Wang Rundong (Remote/Video):</span> RoboMAN: Human-like Compliance Manipulation for Electronics Assembly via an Online Memory-Augmented Network</li>
+      </ul>
+    </div>
+    <script>
+      function toggleTab(event) {
+        event.preventDefault();
+        const tabContent = document.getElementById("tab-content");
+        if (tabContent.style.display === "none" || tabContent.style.display === "") {
+          tabContent.style.display = "block";
+        } else {
+          tabContent.style.display = "none";
+        }
+      }
+    </script>
 
 - speaker: null
   title: Coffee Break and Poster Session
@@ -83,7 +138,62 @@
   time: 14:30 - 15:30
   img: jane.jpg
   type: spotlight
-#  description: "<a href='/contributions'>Details</a>"
+  description: |
+    <a href='/contributions' onclick="toggleTab(event)">Details</a>
+    <style>
+      #tab-content-2 {
+        display: none;
+        margin-top: 10px;
+        padding: 15px;
+        border: 1px solid #ddd;
+        border-radius: 8px;
+        background-color: #fdfdfd;
+        box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+        font-family: Arial, sans-serif;
+        color: #333;
+        text-align: left;
+      }
+      #tab-content-2 ul {
+        list-style-type: disc;
+        padding-left: 20px;
+        margin: 0;
+      }
+      #tab-content-2 li {
+        margin-bottom: 8px;
+        line-height: 1.6;
+      }
+      #tab-content-2 li span {
+        font-weight: bold;
+        color: #0073e6;
+      }
+    </style>
+    <div id="tab-content-2">
+      <ul>
+        <li><span>Shenghui Chen:</span> Learning Human Perception Dynamics for Informative Robot Communication</li>
+        <li><span>Michael Munje:</span> SocialNav-SUB: Benchmarking VLMs for Scene Understanding in Social Robot Navigation</li>
+        <li><span>Jiageng Mao:</span> Universal Humanoid Robot Pose Learning from Internet Human Videos</li>
+        <li><span>Yaru Niu:</span> Human2LocoMan: Learning Versatile Quadrupedal Manipulation with Human Pretraining</li>
+        <li><span>Siddhant Haldar:</span> Point Policy: Unifying Observations and Actions with Key Points for Robot Manipulation</li>
+        <li><span>Bukeikhan Omarali:</span> From Gaze to Action: Leveraging Affordance Grounding for Human Intention Understanding</li>
+        <li><span>Weiwei Gu:</span> Continual Robot Skill and Task Learning via Dialogue</li>
+        <li><span>Maithili Patel:</span> Robot Behavior Personalization from Sparse User Feedback</li>
+        <li><span>Kartik Ramachandruni:</span> PARSEC: Preference Adaptation for Robotic Object Rearrangement from Scene Context</li>
+        <li><span>Yunfan Jiang (Remote):</span> BEHAVIOR Robot Suite: Streamlining Real-World Whole-Body Manipulation for Everyday Household Activities</li>
+        <li><span>Zichao Hu (Remote):</span> ComposableNav: Instruction-Following Navigation in Dynamic Environments via Composable Diffusion</li>
+        <li><span>Amanuel Ergogo (Remote):</span> Towards Embodied Agent Intent Explanation in Human-Robot Collaboration: ACT Error Analysis and Solution Conceptualization</li>
+      </ul>
+    </div>
+    <script>
+      function toggleTab(event) {
+        event.preventDefault();
+        const tabContent = document.getElementById("tab-content-2");
+        if (tabContent.style.display === "none" || tabContent.style.display === "") {
+          tabContent.style.display = "block";
+        } else {
+          tabContent.style.display = "none";
+        }
+      }
+    </script>
 
 - speaker: null
   title: Coffee Break and Poster Session
