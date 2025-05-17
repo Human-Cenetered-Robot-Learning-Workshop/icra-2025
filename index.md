@@ -82,13 +82,13 @@ We intend to guide our conversations with the following questions:
         <li>Efficient fine-tuning of pre-trained large models for embodied AI</li>
         <li>Applications in human-robot interaction and collaboration</li>
     </ul>
-    Accepted papers will be presented as spotlight talks and/or posters. The accepted papers will be made available on the workshop website with the authors’ consent. All papers will be presented on-site during the workshop.
+    Accepted papers will be presented as spotlight talks and/or posters. The accepted papers will be made available on the workshop website with the authors' consent. All papers will be presented on-site during the workshop.
     <br>
     <br>
     <h4 class="mb-3">Submission Guidelines</h4>
     <p>The review process will be single-blind. Submissions will be evaluated based on originality, technical quality, and relevance to
     the workshop themes. The review process will not be public; only the accepted papers will be available on the workshop 
-    website, given the authors’ consent.</p>
+    website, given the authors' consent.</p>
     <p>There is <b>no</b> strict page limit; however, we encourage submissions to be within 4-8 pages (excluding references) to 
     facilitate thorough review. Papers should be submitted in PDF, adhering to the ICRA template and our submission guidelines. Also, we encourage authors to submit videos, code, or data in their supplementary material (zip file) or through external services like Github repos.</p>
     <p><b>Additionally</b>, to encourage discussion on the workshop topic, we ask authors to provide 1~2 paragraphs of statements on how their work relates to the workshop theme. This information will help us organize the workshop discussion and better feature the accepted works on the website.</p>
@@ -127,7 +127,7 @@ We intend to guide our conversations with the following questions:
     </div>
     <table>
         {% for scheduleitem in site.data.schedules %}
-        <tr class="schedule-row" data-event-time="{{ scheduleitem.time }}">
+        <tr class="schedule-row" data-event-time="{{ scheduleitem.time }}" data-event-type="{{ scheduleitem.type }}">
             <td class="time-cell" data-tokyo-time="{{ scheduleitem.time }}">
                 <!-- Initially shows Tokyo time; will be updated by JavaScript -->
                 <p align="center">

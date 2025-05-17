@@ -237,10 +237,12 @@ function updateScheduleStyles() {
 
         // Here, you need to adjust the logic based on your event time format and duration
         // convert all time to comparable value
-        if ( currentTimeValue >= startTimeValue && currentTimeValue <= endTimeValue ) {
+        if (row.getAttribute('data-event-type') === 'break') {
+            row.style.backgroundColor = 'white';
+        } else if ( currentTimeValue >= startTimeValue && currentTimeValue <= endTimeValue ) {
             row.style.backgroundColor = '#ffbe989d'; // Change the color if the event is happening now
         } else {
-            row.style.backgroundColor = ''; // Reset the color if the event is not happening
+            row.style.backgroundColor = '';
         }
     });
 }
