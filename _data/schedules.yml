@@ -29,9 +29,9 @@
   img: jane.jpg
   type: spotlight
   description: |
-    <a href='/contributions' onclick="toggleTab(event)">Details</a>
+    <a href='/contributions' onclick="toggleTab1(event, 'tab-content-1')">Details</a>
     <style>
-      #tab-content {
+      #tab-content-1 {
         display: none;
         margin-top: 10px;
         padding: 15px;
@@ -43,21 +43,21 @@
         color: #333;
         text-align: left;
       }
-      #tab-content ul {
+      #tab-content-1 ul {
         list-style-type: disc;
         padding-left: 20px;
         margin: 0;
       }
-      #tab-content li {
+      #tab-content-1 li {
         margin-bottom: 8px;
         line-height: 1.6;
       }
-      #tab-content li span {
+      #tab-content-1 li span {
         font-weight: bold;
         color: #0073e6;
       }
     </style>
-    <div id="tab-content">
+    <div id="tab-content-1">
       <ul>
         <li><span>Azizul Zahid:</span> Toward Aligning Human and Robot Actions via Multi-Modal Demonstration Learning</li>
         <li><span>Haonan Chen:</span> Tool-as-Interface: Learning Robot Tool Use from Human Play through Imitation Learning</li>
@@ -74,9 +74,9 @@
       </ul>
     </div>
     <script>
-      function toggleTab(event) {
+      function toggleTab1(event, tabId) {
         event.preventDefault();
-        const tabContent = document.getElementById("tab-content");
+        const tabContent = document.getElementById(tabId);
         if (tabContent.style.display === "none" || tabContent.style.display === "") {
           tabContent.style.display = "block";
         } else {
@@ -139,7 +139,7 @@
   img: jane.jpg
   type: spotlight
   description: |
-    <a href='/contributions' onclick="toggleTab(event)">Details</a>
+    <a href='/contributions' onclick="toggleTab2(event, 'tab-content-2')">Details</a>
     <style>
       #tab-content-2 {
         display: none;
@@ -184,7 +184,7 @@
       </ul>
     </div>
     <script>
-      function toggleTab(event) {
+      function toggleTab2(event) {
         event.preventDefault();
         const tabContent = document.getElementById("tab-content-2");
         if (tabContent.style.display === "none" || tabContent.style.display === "") {
