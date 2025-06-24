@@ -10,23 +10,23 @@
   speaker_webpage: "https://web.eecs.umich.edu/~kuipers/"
   affliation: University of Michigan
   time: 08:30 - 09:05
-  img: benjamin_kuipers.jpg
+  # img: benjamin_kuipers.jpg
   type: keynote
   description: "<p>Models, Trust, and Unknown Unknowns</p>"
 
-- speaker: Ruohan Zhang
+- speaker: Zhuochun Liu
   title: Keynote Talk 2
-  speaker_webpage: "https://web.stanford.edu/~zharu/"
-  affliation: Stanford University
+  speaker_webpage: ""
+  affliation: NVIDIA
   time: 09:05 - 09:40
-  img: ruohan_zhang.jpg
+  # img: ruohan_zhang.jpg
   type: keynote
-  description: "<p>Data-Driven Approaches for Policy Learning in Household Robots</p>"
+  description: "<p>Human-in-the-Loop Control for Safer Automous Driving</p>"
 
 - speaker: Authors of contributions
   title: Spotlight Talks of Contributed Papers
   time: 09:40 - 10:45
-  img: jane.jpg
+  # img: jane.jpg
   type: spotlight
   description: |
     <a href='/contributions' onclick="toggleTab1(event, 'tab-content-1')">Details</a>
@@ -96,7 +96,7 @@
   speaker_webpage: "https://www.tudelft.nl/staff/j.kober/"
   affliation: TU Delft
   time: 11:15 - 11:50
-  img: jens_kober.jpg
+  # img: jens_kober.jpg
   type: keynote
   description: "<p>Learning from Intuitive Interactions with Human Teachers</p>"
 
@@ -105,14 +105,14 @@
   speaker_webpage: "https://haroldsoh.com/"
   affliation: National University of Singapore
   time: 11:50 - 12:25
-  img: harold_soh.jpg
+  # img: harold_soh.jpg
   type: keynote
   description: "<p>(Tentative) Rethinking Social, Task, and Motion Planning with Foundation Models</p>"
 
 - speaker: null
   title: Lunch Break
   time: 12:25 - 13:20
-  img: jane.jpg
+  # img: jane.jpg
   type: break
 
 - speaker: Andrea Bajcsy
@@ -120,7 +120,7 @@
   speaker_webpage: "https://www.ri.cmu.edu/ri-faculty/andrea-bajcsy/"
   affliation: Carnegie Mellon University
   time: 13:20 - 13:55
-  img: andrea_bajcsy.jpg
+  # img: andrea_bajcsy.jpg
   type: keynote
   description: "<p>What Can Robot Safety Learn from LLM Safety?</p>"
 
@@ -129,7 +129,7 @@
   speaker_webpage: "https://core-robotics.gatech.edu/people/matthew-gombolay/"
   affliation: Georgia Institute of Technology
   time: 13:55 - 14:30
-  img: matthew_gombolay.jpg
+  # img: matthew_gombolay.jpg
   type: keynote
   description: "<p>Value Alignment and Safety in Human-Robot Interactive and Explainable Learning with Models Big and Small</p>"
 
@@ -198,19 +198,19 @@
 - speaker: null
   title: Coffee Break and Poster Session
   time: 15:30 - 16:00
-  img: jane.jpg
+  # img: jane.jpg
   type: break
 
 - speaker: All Speakers
   title: Panel Discussion
   time: 16:00 - 17:00
-  img: jane.jpg
+  # img: jane.jpg
   type: panel
   description: "<p>Panel Discussion with Keynote Speakers</p>"
 
 - speaker: Organizers
   title: Closing Remarks
   time: 17:00 - 17:10
-  img: jane.jpg
+  # img: jane.jpg
   type: keynote
   description: "<p>Closing Remarks by Workshop Organizers</p>"

@@ -2,7 +2,7 @@
   webpage: https://www.ri.cmu.edu/ri-faculty/andrea-bajcsy/
   affil: Carnegie Mellon University
   affil_link: https://www.cmu.edu/
-  img: andrea_bajcsy.png
+  # img: andrea_bajcsy.png
   bio: >
     Andrea is an Assistant Professor at Carnegie Mellon University. Her research focuses on human-robot interaction and trustworthy AI, working towards developing safe and reliable human-AI systems.
 
@@ -10,7 +10,7 @@
   webpage: https://web.eecs.umich.edu/~kuipers/
   affil: University of Michigan
   affil_link: https://umich.edu/
-  img: benjamin_kuipers.jpg
+  # img: benjamin_kuipers.jpg
   bio: >
     Benjamin is a Professor at the University of Michigan. His research explores the intersection of ethics, robotics, and AI, focusing on understanding and addressing critical challenges in these domains.
 
@@ -18,7 +18,7 @@
   webpage: https://www.tudelft.nl/staff/j.kober/
   affil: TU Delft
   affil_link: https://www.tudelft.nl/
-  img: jens_kober.jpg
+  # img: jens_kober.jpg
   bio: >
     Jens is an Associate Professor at TU Delft. His research specializes in interactive imitation learning, developing innovative approaches for robots to learn from human teachers.
 
@@ -26,7 +26,7 @@
   webpage: https://haroldsoh.com/
   affil: National University of Singapore
   affil_link: https://www.nus.edu.sg/
-  img: harold_soh.png
+  # img: harold_soh.png
   bio: >
     Harold is an Assistant Professor at the National University of Singapore. His research combines human-robot interaction with generative models, exploring new paradigms in social, task, and motion planning.
 
@@ -34,14 +34,14 @@
   webpage: https://core-robotics.gatech.edu/people/matthew-gombolay/
   affil: Georgia Institute of Technology
   affil_link: https://www.gatech.edu/
-  img: matthew_gombolay.jpg
+  # img: matthew_gombolay.jpg
   bio: >
     Matthew is an Associate Professor at Georgia Tech. His research focuses on human-robot interaction and alignment, particularly exploring value alignment and skill learning using large models in the context of naval planning.
 
-- name: Ruohan Zhang
+- name: Zhuochun Liu
   webpage: https://web.stanford.edu/~zharu/
   affil: Stanford University
   affil_link: https://stanford.edu/
-  img: ruohan_zhang.png
+  # img: ruohan_zhang.png
   bio: >
     Ruohan is a Postdoctoral Researcher at Stanford University. Their research focuses on human-robot interfaces, working towards creating more human-centered robotics systems.

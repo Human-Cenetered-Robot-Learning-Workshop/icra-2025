@@ -42,7 +42,7 @@ We intend to guide our conversations with the following questions:
 
 
 
-<section id="speakers">
+<!-- <section id="speakers">
     <h2 class="mb-4">Speakers</h2>
     <div class="row">
         {% for speaker in site.data.speakers %}
@@ -55,13 +55,12 @@ We intend to guide our conversations with the following questions:
                     <h5 class="card-title  text-center"><a href="{{ speaker.webpage }}"> {{speaker.name}} </a></h5>
                     <h5 class="card-title  text-center">
                     <a href="{{ speaker.affil_link }}">{{ speaker.affil }}</a></h5>
-                    <!-- <p class="card-text">{{ speaker.bio }}</p> -->
                 </div>
             </div>
         </div>
         {% endfor %}
     </div>
-</section>
+</section> -->
 
 <!-- Call for Papers -->
 
@@ -151,7 +150,9 @@ We intend to guide our conversations with the following questions:
                 <div class="people-name text-center">
                     <!-- scheduleitem name (link to webpage if provided) -->
                     {% if scheduleitem.speaker_webpage %}
-                        <a href="{{ scheduleitem.speaker_webpage }}" target="_blank">{{ scheduleitem.speaker }}</a>
+                        <!-- <a href="{{ scheduleitem.speaker_webpage }}" target="_blank">{{ scheduleitem.speaker }}</a> -->
+                        {{ scheduleitem.speaker }}
+
                     {% else %}
                         {{ scheduleitem.speaker }}
                     {% endif %}
